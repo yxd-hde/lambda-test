@@ -10,6 +10,11 @@ gulp.task('default', function() {
   console.log('test');
 });
 
+gulp.task('install', function() {
+  gulp.src(['./package.json'])
+    .pipe(install());
+});
+
 gulp.task('lambda', function(event) {
   run('node_modules/lambda-local/bin/lambda-local -l index.js -t 30 -e ' + event)
     .exec();
