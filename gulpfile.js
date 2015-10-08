@@ -11,7 +11,7 @@ gulp.task('default', function() {
 });
 
 gulp.task('lambda', function(event) {
-  run('node_modules/lambda-local/bin/lambda-local -l index.js -e ' + event)
+  run('node_modules/lambda-local/bin/lambda-local -l index.js -t 30 -e ' + event)
     .exec();
 });
 
