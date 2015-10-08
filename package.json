@@ -1,0 +1,26 @@
+{
+  "name": "lambda-test",
+  "version": "1.0.0",
+  "description": "test project for lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxd-hde/lambda-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yxd-hde/lambda-test/issues"
+  },
+  "homepage": "https://github.com/yxd-hde/lambda-test#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.2.8",
+    "gulp": "^3.9.0",
+    "gulp-param": "^0.6.4",
+    "gulp-run": "^1.6.11",
+    "lambda-local": "0.0.5"
+  }
+}
