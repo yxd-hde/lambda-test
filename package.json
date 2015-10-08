@@ -18,9 +18,14 @@
   "homepage": "https://github.com/yxd-hde/lambda-test#readme",
   "devDependencies": {
     "aws-sdk": "^2.2.8",
+    "del": "^2.0.2",
     "gulp": "^3.9.0",
+    "gulp-install": "^0.6.0",
     "gulp-param": "^0.6.4",
     "gulp-run": "^1.6.11",
-    "lambda-local": "0.0.5"
+    "gulp-zip": "^3.0.2",
+    "lambda-local": "0.0.5",
+    "node-aws-lambda": "^0.1.6",
+    "run-sequence": "^1.1.4"
   }
 }
