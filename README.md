@@ -11,6 +11,14 @@ Make sure you have
 
 installed on your machine.
 
+After checking out the code, run
+
+```
+gulp install
+```
+
+in the top directory of the project.
+
 ## Prepare to use AWS service.
 
 The sample code calls AWS S3's list bucket API.
